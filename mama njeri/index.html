@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mama Njeri's Kitchen</title>
+  <link rel="stylesheet" href="stle.css">
+</head>
+<body><div><p>Text</p></div>
+ <link rel="stylesheet" href="stle.css">
+  <!-- Header with Logo -->
+  <header>
+    <div class="logo-area">
+      <!-- Logo Image -->
+      <img src="logo.svg" 
+           alt="Mama Njeri's Kitchen Logo">
+      <h1>Mama Njeri's Kitchen</h1>
+    </div>
+
+    <nav>
+      <a href="#menu">Menu</a> ·
+      <a href="#order">Order</a> ·
+      <a href="#visit">Visit</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    Fresh Kenyan food, cooked daily
+  </section>
+
+  <div class="container">
+
+    <div class="main-grid">
+      <!-- Menu Table -->
+      <section id="menu" class="menu-section">
+        <h2>Menu (table)</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Dish</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pilau</td>
+              <td>KES 350</td>
+            </tr>
+            <tr>
+              <td>Ugali & Sukuma</td>
+              <td>KES 250</td>
+            </tr>
+            <tr>
+              <td>Chapati (2)</td>
+              <td>KES 100</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Order Form -->
+      <section id="order" class="order-section">
+        <h2>Place an order (form)</h2>
+        <form>
+          <input type="text" placeholder="Your name" required>
+          <select>
+            <option value="pilau" selected>Pilau</option>
+            <option value="ugali">Ugali & Sukuma</option>
+            <option value="chapati">Chapati (2)</option>
+          </select>
+          <button type="submit">Send order</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Gallery + Contact -->
+    <div class="bottom-grid">
+      <section class="gallery">
+        <h3>Gallery: 3 photos in a div grid (images)</h3>
+        <div class="gallery-grid">
+          <img src="pilau.svg" alt="Kenyan Pilau">
+          <img src="ugali.svg" alt="Ugali and Sukuma Wiki">
+          <img src="chapati.svg" alt="Kenyan Chapati">
+        </div>
+      </section>
+
+      <section id="visit" class="contact">
+        <h3>Opening hours and contact (div)</h3>
+        <p><strong>Hours:</strong> Mon–Sat 8:00 AM – 8:00 PM</p>
+        <p><strong>Location:</strong> Nairobi, Kenya</p>
+        <p><strong>Phone:</strong> +254 700 000 000</p>
+        <p><strong>Email:</strong> order@mamanjeri.ke</p>
+      </section>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Mama Njeri's Kitchen
+  </footer>
+
+</body>
+</html>
